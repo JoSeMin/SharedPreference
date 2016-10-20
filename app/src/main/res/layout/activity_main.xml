@@ -7,10 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.hs.emrirm.a9767tklp.sharedpreferencetest.MainActivity">
+    tools:context="kr.hs.emrirm.a9767tklp.sharedpreferencetest.MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edit_nane"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:hint="성명 입력"/>
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="나이 입력"/>
 </RelativeLayout>
